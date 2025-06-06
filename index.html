@@ -12,6 +12,17 @@
   'https://connect.facebook.net/en_US/fbevents.js');
   fbq('init', '1373269597061354');
   fbq('track', 'PageView');
+  
+  // Function to track EngagedSession custom event
+  function trackEngagedSession() {
+    fbq('trackCustom', 'EngagedSession', {
+      sessionDuration: 10
+    });
+  }
+  
+  // Set timeout to track EngagedSession after 10 seconds
+  setTimeout(trackEngagedSession, 10000);
+
   </script>
   <noscript><img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=1373269597061354&ev=PageView&noscript=1"
