@@ -4,6 +4,7 @@ This page will track Page View event and Add to cart event when the Add to cart 
 
 ## To host on Github pages
 Go to your repository settings and enable GitHub Pages. Choose the branch that you want to (main branch). The site would then be hosted on yourgithubid.github.io/yourreponame
+For me, this page is hosted here: https://hangjoni.github.io/pixeltester/
 
 ## Cloning this repo
 Feel free to clone this repo. Replace the Pixel code in head section of index.html with the pixel ID generated from your own Pixel dataset.
